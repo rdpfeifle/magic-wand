@@ -33,7 +33,7 @@ export const Navbar = () => {
 `;
 
   return (
-    <nav className="w-full fixed top-0 left-0 right-0 z-10">
+    <nav className="w-full sticky top-0 left-0 right-0 z-10">
       <div className="px-4 mx-auto lg:max-w-7xl md:flex md:items-center md:justify-between md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           {/* Logo goes here */}
