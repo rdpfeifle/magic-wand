@@ -28,3 +28,7 @@ h3 {
 p {
   @apply text-lg;
 }
+
+button {
+  @apply text-lg bg-aquamarine-blue px-6 py-3 rounded-full text-[rgb(17,24,39)];
+}
