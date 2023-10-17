@@ -76,15 +76,13 @@ export const Navbar = () => {
         </div>
         {/* Navlinks */}
         <div
-          className={`flex-1 justify-self-end pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-            isMenuOpen ? "p-12 md:p-0 block" : "hidden"
-          }`}
+          className={`flex-1 justify-self-end pb-3 mt-8 md:block md:pb-0 md:mt-0 ${isMenuOpen ? "p-12 md:p-0 block" : "hidden"
+            }`}
         >
           <ul className="h-screen md:h-auto items-center justify-center md:flex">
             <li
-              className={`${
-                activeLink === "home" ? activeNavLinkStyles : navLinkStyles
-              }`}
+              className={`${activeLink === "home" ? activeNavLinkStyles : navLinkStyles
+                }`}
               onClick={() => handleNavLinkClick("home")}
             >
               <Link href="/#home" onClick={handleMenuClick}>
@@ -92,19 +90,17 @@ export const Navbar = () => {
               </Link>
             </li>
             <li
-              className={`${
-                activeLink === "about" ? activeNavLinkStyles : navLinkStyles
-              }`}
+              className={`${activeLink === "about" ? activeNavLinkStyles : navLinkStyles
+                }`}
               onClick={() => handleNavLinkClick("about")}
             >
-              <Link href="/#about" onClick={handleMenuClick}>
+              <Link href="/about" onClick={handleMenuClick}>
                 About
               </Link>
             </li>
             <li
-              className={`${
-                activeLink === "services" ? activeNavLinkStyles : navLinkStyles
-              }`}
+              className={`${activeLink === "services" ? activeNavLinkStyles : navLinkStyles
+                }`}
               onClick={() => handleNavLinkClick("services")}
             >
               <Link href="/#services" onClick={handleMenuClick}>
@@ -112,11 +108,10 @@ export const Navbar = () => {
               </Link>
             </li>
             <li
-              className={`${
-                activeLink === "testimonials"
-                  ? activeNavLinkStyles
-                  : navLinkStyles
-              }`}
+              className={`${activeLink === "testimonials"
+                ? activeNavLinkStyles
+                : navLinkStyles
+                }`}
               onClick={() => handleNavLinkClick("testimonials")}
             >
               <Link href="/#testimonials" onClick={handleMenuClick}>
@@ -124,9 +119,8 @@ export const Navbar = () => {
               </Link>
             </li>
             <li
-              className={`${
-                activeLink === "faq" ? activeNavLinkStyles : navLinkStyles
-              }`}
+              className={`${activeLink === "faq" ? activeNavLinkStyles : navLinkStyles
+                }`}
               onClick={() => handleNavLinkClick("faq")}
             >
               <Link href="/#faq" onClick={handleMenuClick}>
